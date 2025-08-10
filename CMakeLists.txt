@@ -23,7 +23,6 @@ add_executable(DSA main.cpp
         PATTERN/pattern_1.cpp
         PATTERN/pattern_16.cpp
         PATTERN/pattern_17.cpp
-        PATTERN/altu_faltu.cpp
         PATTERN/pattern_18.cpp
         PATTERN/pattern_19.cpp
         PATTERN/pattern_20.cpp
