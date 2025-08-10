@@ -28,6 +28,13 @@ add_executable(DSA main.cpp
         PATTERN/pattern_20.cpp
         PATTERN/pattern_21.cpp
         PATTERN/pattern_22.cpp
+        PATTERN/pattern_23.cpp
+        PATTERN/pattern_24.cpp
+        PATTERN/pattern_25.cpp
+        PATTERN/pattern_26.cpp
+        PATTERN/pattern_27.cpp
+        PATTERN/pattern_28.cpp
+        PATTERN/pattern_29.cpp
 )
 file(GLOB PATTERN_SOURCES "PATTERN/*.cpp")
 add_executable(MyProject ${PATTERN_SOURCES})
