@@ -35,6 +35,19 @@ add_executable(DSA main.cpp
         PATTERN/pattern_27.cpp
         PATTERN/pattern_28.cpp
         PATTERN/pattern_29.cpp
+        PATTERN/pattern_30.cpp
+        PATTERN/pattern_31.cpp
+        PATTERN/pattern_32.cpp
+        .idea/ALL_ABOUT_STL/vector_properties.cpp
+        .idea/ALL_ABOUT_STL/CLASS_ASSIGNMENT_1/ques_1.cpp
+        .idea/ALL_ABOUT_STL/CLASS_ASSIGNMENT_1/ques_2.cpp
+        .idea/ALL_ABOUT_STL/CLASS_ASSIGNMENT_1/ques_7.cpp
+        .idea/ALL_ABOUT_STL/CLASS_ASSIGNMENT_1/ques_8.cpp
+        .idea/ALL_ABOUT_STL/CLASS_ASSIGNMENT_1/ques_4_1part.cpp
+        .idea/ALL_ABOUT_STL/CLASS_ASSIGNMENT_1/ques_4_2part.cpp
+        .idea/ALL_ABOUT_STL/CLASS_ASSIGNMENT_1/ques_4_3part.cpp
+        .idea/ALL_ABOUT_STL/CLASS_ASSIGNMENT_1/ques_4_4part.cpp
+        .idea/ALL_ABOUT_STL/CLASS_ASSIGNMENT_1/ques_4_5part.cpp
 )
 file(GLOB PATTERN_SOURCES "PATTERN/*.cpp")
 add_executable(MyProject ${PATTERN_SOURCES})
