@@ -48,6 +48,13 @@ add_executable(DSA main.cpp
         .idea/ALL_ABOUT_STL/CLASS_ASSIGNMENT_1/ques_4_3part.cpp
         .idea/ALL_ABOUT_STL/CLASS_ASSIGNMENT_1/ques_4_4part.cpp
         .idea/ALL_ABOUT_STL/CLASS_ASSIGNMENT_1/ques_4_5part.cpp
+        .idea/ALL_ABOUT_STL/CLASS_ASSIGNMENT_1/bubble_sorter.cpp
+        .idea/ALL_ABOUT_STL/CLASS_ASSIGNMENT_1/binsry_search.cpp
+        .idea/ALL_ABOUT_ARRAYSS/Diagonal_Matrix.cpp
+        .idea/ALL_ABOUT_ARRAYSS/Tri_daigonal_Matrix.cpp
+        .idea/ALL_ABOUT_STL/List_Properties.cpp
+        .idea/ALL_ABOUT_STL/Deque_properties.cpp
+        .idea/ALL_ABOUT_STL/Pair_properties.cpp
 )
 file(GLOB PATTERN_SOURCES "PATTERN/*.cpp")
 add_executable(MyProject ${PATTERN_SOURCES})
