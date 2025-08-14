@@ -55,6 +55,12 @@ add_executable(DSA main.cpp
         .idea/ALL_ABOUT_STL/List_Properties.cpp
         .idea/ALL_ABOUT_STL/Deque_properties.cpp
         .idea/ALL_ABOUT_STL/Pair_properties.cpp
+        .idea/ALL_ABOUT_STL/stack_properties.cpp
+        .idea/ALL_ABOUT_STL/queue_properties.cpp
+        .idea/ALL_ABOUT_STL/priorityqueue_properties.cpp
+        .idea/ALL_ABOUT_STL/map_propperties.cpp
+        .idea/ALL_ABOUT_STL/set_propterties.cpp
+        .idea/ALL_ABOUT_STL/Algorthims_sorting.cpp
 )
 file(GLOB PATTERN_SOURCES "PATTERN/*.cpp")
 add_executable(MyProject ${PATTERN_SOURCES})
