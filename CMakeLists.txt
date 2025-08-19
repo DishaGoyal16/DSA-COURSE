@@ -61,6 +61,41 @@ add_executable(DSA main.cpp
         .idea/ALL_ABOUT_STL/map_propperties.cpp
         .idea/ALL_ABOUT_STL/set_propterties.cpp
         .idea/ALL_ABOUT_STL/Algorthims_sorting.cpp
+        .idea/ALL_ABOUT_STL/more_algorthims.cpp
+        Basic_mathmatics_questions/Count_digits.cpp
+        Basic_mathmatics_questions/Reverse_Number.cpp
+        Basic_mathmatics_questions/check_palidrome.cpp
+        Basic_mathmatics_questions/hcf.cpp
+        Basic_mathmatics_questions/Lcm.cpp
+        Basic_mathmatics_questions/armstrong_number.cpp
+        Basic_mathmatics_questions/all_divisors.cpp
+        Basic_mathmatics_questions/prime_number.cpp
+        Basic_mathmatics_questions/decimal_to_binary.cpp
+        Basic_mathmatics_questions/2nd_complement.cpp
+        Basic_mathmatics_questions/binary_to_decimal.cpp
+        Basic_mathmatics_questions/2nd_complemenet.cpp
+        Recurrsion/prting_numbers.cpp
+        Recurrsion/print_n_time.cpp
+        Recurrsion/sum_of_first_N_numbers.cpp
+        Recurrsion/Reverse_array.cpp
+        Recurrsion/palideome_checkk.cpp
+        Recurrsion/Fibonaccci_series.cpp
+        All_About_Strings.cpp
+        Recurrsion/Palindrome_of_string.cpp
+        HASING/number_frequency.cpp
+        HASING/alphabet_hashing.cpp
+        HASING/mapping_numeric.cpp
+        HASING/mapping_alphabet.cpp
+        HASING/maximun_occuring_element.cpp
+        Sortings/Selection_sort.cpp
+        Sortings/Bubble_sort.cpp
+        Sortings/Insertion_sort.cpp
+        Sortings/merge_sort.cpp
+        Sortings/Bubble_sort_recurssion.cpp
+        Sortings/Insertion_sort_recurssion.cpp
+        Sortings/Quick_sort.cpp
+        Class_Assignments/Assignment-1/Ques_1.cpp
+        Class_Assignments/Assignment-1/Ques_2.cpp
 )
 file(GLOB PATTERN_SOURCES "PATTERN/*.cpp")
 add_executable(MyProject ${PATTERN_SOURCES})

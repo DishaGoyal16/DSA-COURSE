@@ -57,6 +57,12 @@ int main() {
     for (auto iTT=vect2.rbegin();iTT!=vect2.rend();iTT++) {
         cout<<*(iTT)<<" ";
     }
+    cout<<endl<<endl<<endl;
+    //anooooother shorcut for looooop
+    for (auto itt:vect2) {
+        cout<< itt<<" ";
+
+    }
 
 
 
